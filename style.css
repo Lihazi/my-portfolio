@@ -14,7 +14,11 @@ h1{
     color: orange;
 }
 
-section{display: flex;}
+section{
+
+    display: flex;
+    margin-bottom: 100px;
+}
 
 
 .header-left{
@@ -27,7 +31,7 @@ section{display: flex;}
 }
 
 .header-right img{
-    width: 100%;
+    width: 80%;
 
 }
 .hire-button{
@@ -46,4 +50,35 @@ section{display: flex;}
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.dream-right{
+    width: 50%;
+    padding-left: 5%;
+}
+
+.dream-left img{
+    width: 80%;
+}
+
+.dream-left{
+    width: 50%;
+    padding-left: 5%;
+}
+.download-button{
+    font-weight: bold;
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    color: white;
+    padding: 10px 40px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
 }
