@@ -84,11 +84,43 @@ h1{
 }
 
 .box-right{
-    width: 50%;
+    width: 40%;
     padding-left: 5%;
+    padding-right: 5%;
+    box-shadow:10px 10px 40px grey ;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 .box-left{
-    width: 50%;
+    width: 40%;
+    box-shadow:10px 10px 40px grey ;
     padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.box-left h3{
+   
+    color: orange;
+}
+
+.box-right h3{
+    color: orange;
+}
+
+.boxes-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
 }
