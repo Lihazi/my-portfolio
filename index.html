@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -35,7 +36,10 @@
 
         </div>
 
-        <div class="header-right">
+        <div class="header-right" data-aos="fade-left"
+        data-aos-anchor="#example-anchor"
+        data-aos-offset="500"
+        data-aos-duration="500">
 
             <img src="images/my-bg.png" alt="">
 
@@ -46,7 +50,7 @@
 
     <section class="dream-big flexible-container">
 
-        <div class="dream-left">
+        <div class="dream-left"  data-aos="fade-up-right">
 
             <img src="images/my-bg2.png" alt="">
 
@@ -68,11 +72,11 @@
 
 
     <section class="boxes-area">
-        <h1>Experiences</h1>
+        <h1 class="experinces">Experiences</h1>
 
         <div class="flexible-container">
 
-            <div class="box-left">
+            <div class="box-left" data-aos="zoom-in-right">
                 <h1>Full stack developer</h1>
                 <h3>2021-Present | Pro Level Developer</h3>
                 <p>I am the master of HTML, CSS and Javascript. I know everything needed to make a website function,
@@ -81,7 +85,7 @@
                     JS. I even know the deployment, server and security. I will give you 100% web solution.</p>
             </div>
 
-            <div class="box-right">
+            <div class="box-right" data-aos="zoom-in-left">
                 <h1>Baby web developer</h1>
                 <h3>2020-2021 | Programming Hero Learner</h3>
                 <p>They didn't offer me a job. But I made myself as a remove web developer. I made their website and
@@ -92,6 +96,19 @@
         </div>
 
     </section>
+
+
+    <section class="footer">
+        <h3>©Abid Lihazi. All rights reserved.</h3>
+    </section>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+    <script>
+        AOS.init();
+      </script>
 
 </body>
 
